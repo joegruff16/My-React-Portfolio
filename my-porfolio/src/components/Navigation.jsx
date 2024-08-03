@@ -13,7 +13,7 @@ function Navigation() {
         <Navbar.Brand as={Link} to="/">
           Joe's Portfolio
         </Navbar.Brand>
-        <Nav className="'me-auto">
+        <Nav className="me-auto">
           <Nav.Link as={Link} to="/aboutme">
             About Me
           </Nav.Link>
