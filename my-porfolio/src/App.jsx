@@ -1,12 +1,8 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import { Alert, Button, Card, Form } from "react-bootstrap";
 import "./App.css";
-// About Me, Portfolio, Contact, Resume
 function App() {
   return (
     <div className="App">
