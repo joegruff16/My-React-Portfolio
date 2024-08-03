@@ -9,12 +9,12 @@ function Navigation() {
   return (
     <Navbar bg="primary" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#landing">Joe's Portfolio</Navbar.Brand>
+        <Navbar.Brand href="/">Joe's Portfolio</Navbar.Brand>
         <Nav className="'me-auto">
-          <Nav.Link href="#aboutme">About Me</Nav.Link>
-          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-          <Nav.Link href="#resume">Resume</Nav.Link>
+          <Nav.Link href="/Aboutme">About Me</Nav.Link>
+          <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+          <Nav.Link href="/Contact">Contact</Nav.Link>
+          <Nav.Link href="/Resume">Resume</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

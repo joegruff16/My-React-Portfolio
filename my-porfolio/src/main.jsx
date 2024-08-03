@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Landing from "../src/pages/Landing";
 import AboutMe from "../src/pages/Aboutme";
 import Contact from "../src/pages/Contact";
-import Portfolio from "../src/pages/Portolio";
+import Portfolio from "../src/pages/Portfolio";
 import Resume from "../src/pages/Resume";
 
 const router = createBrowserRouter([
