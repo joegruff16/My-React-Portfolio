@@ -1,7 +1,7 @@
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
-function Resume() {
+function Landing() {
   return (
     <>
       <Navigation />
@@ -11,4 +11,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default Landing;

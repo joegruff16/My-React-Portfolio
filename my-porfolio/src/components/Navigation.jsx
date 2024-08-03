@@ -9,9 +9,9 @@ function Navigation() {
   return (
     <Navbar bg="primary" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Joe's Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#landing">Joe's Portfolio</Navbar.Brand>
         <Nav className="'me-auto">
-          <Nav.Link href="#home">About Me</Nav.Link>
+          <Nav.Link href="#aboutme">About Me</Nav.Link>
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
           <Nav.Link href="#resume">Resume</Nav.Link>
