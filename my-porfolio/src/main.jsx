@@ -6,11 +6,11 @@ import App from "./App";
 // Import Bootstrap and styles
 import "bootstrap/dist/css/bootstrap.min.css";
 // Import pages
-import Landing from "../src/pages/Landing";
-import AboutMe from "../src/pages/Aboutme";
-import Contact from "../src/pages/Contact";
-import Portfolio from "../src/pages/Portfolio";
-import Resume from "../src/pages/Resume";
+import Landing from "./pages/Landing";
+import Aboutme from "./pages/Aboutme";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 
 const router = createBrowserRouter([
   {
@@ -19,23 +19,22 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: "/",
         element: <Landing />,
       },
       {
-        path: "/Aboutme",
-        element: <AboutMe />,
+        path: "aboutme",
+        element: <Aboutme />,
       },
       {
-        path: "/Contact",
+        path: "contact",
         element: <Contact />,
       },
       {
-        path: "/Portfolio",
+        path: "portfolio",
         element: <Portfolio />,
       },
       {
-        path: "/Resume",
+        path: "resume",
         element: <Resume />,
       },
     ],
