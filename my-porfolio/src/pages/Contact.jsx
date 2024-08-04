@@ -1,13 +1,19 @@
-// import Navigation from "../components/Navigation";
-// import Footer from "../components/Footer";
-
+import Form from "react-bootstrap/Form";
 function Contact() {
   return (
     <>
-      <h1>Hello, my name is Joe Ruff and welcome to my Portfolio page.</h1>
-      {/* <Navigation />
-
-      <Footer /> */}
+      <h1>Contact Me</h1>
+      <div>
+        <Form>
+          <Form.Group>
+            <Form.Label>Email Address</Form.Label>
+            <Form.Control type="email" placeholder="test@gmail.com" />
+            <Form.Text className="text-muted">
+              We'll never use your email
+            </Form.Text>
+          </Form.Group>
+        </Form>
+      </div>
     </>
   );
 }

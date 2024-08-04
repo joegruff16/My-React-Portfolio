@@ -2,9 +2,13 @@
 
 body {
   font-family: "Kanit", sans-serif;
+  color: #f8f8fb;
+  background-color: #0b3954;
 }
-
-:root {
+Nav {
+  background-color: #bfd7ea;
+}
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;

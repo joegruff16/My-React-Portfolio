@@ -3,8 +3,8 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import { Outlet } from "react-router-dom";
 // Imports for styling
-import { Alert, Button, Card, Form } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Alert, Button, Card } from "react-bootstrap";
+
 import "./App.css";
 
 function App() {
@@ -16,15 +16,6 @@ function App() {
       </div>
 
       <div>
-        <Form>
-          <Form.Group>
-            <Form.Label>Email Address</Form.Label>
-            <Form.Control type="email" placeholder="test@gmail.com" />
-            <Form.Text className="text-muted">
-              We'll never use your email
-            </Form.Text>
-          </Form.Group>
-        </Form>
         <Card className="mb-3" style={{ color: "#0081A7" }}>
           <Card.Img />
           <Card.Body />

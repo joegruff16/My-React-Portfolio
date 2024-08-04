@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <Navbar bg="primary" data-bs-theme="bs-secondary">
+    <Navbar bg="Nav" data-bs-theme="light">
       <Container>
         <Navbar.Brand as={Link} to="/">
           Joe's Portfolio
         </Navbar.Brand>
-        <Nav className="me-auto">
+        <Nav className="py-2">
           <Nav.Link as={Link} to="/aboutme">
             About Me
           </Nav.Link>
