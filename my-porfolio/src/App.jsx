@@ -2,8 +2,9 @@ import React from "react";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import { Outlet } from "react-router-dom";
-
+// Imports for styling
 import { Alert, Button, Card, Form } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {

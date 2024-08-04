@@ -1,10 +1,7 @@
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
-
 function Landing() {
   return (
     <>
-      <h1>.</h1>
+      <h1>Hi, my name is Joe. Welcome to my Portfolio page!</h1>
     </>
   );
 }

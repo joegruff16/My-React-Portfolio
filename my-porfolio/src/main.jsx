@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 // Import Bootstrap and styles
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 // Import pages
 import Landing from "./pages/Landing";
 import Aboutme from "./pages/Aboutme";
