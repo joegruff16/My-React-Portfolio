@@ -5,10 +5,10 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 // Import Bootstrap and styles
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "../src/assets/style.css";
 // Import pages
 import Landing from "./pages/Landing";
-import Aboutme from "./pages/Aboutme";
+import Aboutme from "./pages/AboutmePage";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";

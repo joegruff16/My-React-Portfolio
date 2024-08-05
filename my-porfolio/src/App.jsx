@@ -3,28 +3,17 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import { Outlet } from "react-router-dom";
 // Imports for styling
-import { Alert, Button, Card } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 
-import "./App.css";
+import "../src/assets/style.css";
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <Navigation />
-        <Outlet />
-      </div>
-
-      <div>
-        <Card className="mb-3" style={{ color: "#0081A7" }}>
-          <Card.Img />
-          <Card.Body />
-        </Card>
-        <Button>Test Button</Button>
-        <Alert>Use this instead</Alert>
-      </div>
+    <div className="fluid">
+      <Navigation />
+      <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 
