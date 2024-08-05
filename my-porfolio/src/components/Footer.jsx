@@ -1,5 +1,8 @@
 import React from "react";
+// import react icons for social media portion of footer
+// import { FiGithub, FiLinkedin, FiSubstack } from "react-icons/fi";
 
+const footerLinks = [{}];
 function Footer() {
   return (
     <div className="text-center">
