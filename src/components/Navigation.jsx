@@ -11,7 +11,7 @@ function Navigation() {
     <Navbar bg="Nav" data-bs-theme="light">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          Joe's Portfolio
+          Joseph Ruff
         </Navbar.Brand>
         <Nav className="py-2">
           <Nav.Link as={Link} to="/aboutme">

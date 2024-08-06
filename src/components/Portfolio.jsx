@@ -1,5 +1,5 @@
 import React from "react";
-
+// Add all of your projects into the component to pass into the page
 function Portfolio() {
   return (
     <div>

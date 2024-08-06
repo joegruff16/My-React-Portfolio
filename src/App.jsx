@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
+import Header from "./components/Header";
 import { Outlet } from "react-router-dom";
 // Imports for styling
 import Container from "react-bootstrap/Container";
@@ -10,7 +11,8 @@ import "../src/assets/style.css";
 function App() {
   return (
     <div className="fluid">
-      <Navigation />
+      <Header />
+      {/* <Navigation /> */}
       <Outlet />
       <Footer />
     </div>

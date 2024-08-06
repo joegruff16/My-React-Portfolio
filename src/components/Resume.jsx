@@ -1,4 +1,5 @@
 import React from "react";
+// Have a href redirect to a PDF
 
 function Resume() {
   return (
