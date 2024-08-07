@@ -1,5 +1,4 @@
 import React from "react";
-import headerImg from "../assets/images/header2.png";
 import Navigation from "./Navigation";
 import "../assets/style.css";
 

@@ -1,11 +1,10 @@
 import React from "react";
 import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import { Outlet } from "react-router-dom";
 
 // Imports for styling
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/assets/style.css";
 
 function App() {

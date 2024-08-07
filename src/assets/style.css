@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
 
-body {
+/* body {
   font-family: "Kanit", sans-serif;
   color: #f8f8fb;
   background-color: #0b3954;
-}
+} */
 Nav {
   background-color: transparent;
 }
@@ -15,18 +15,16 @@ Nav {
 .navHeader {
   background-image: url("./images/header.png");
   height: 8vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #0b3954; /* Ensure the background color is white */
 }
 
 html,
 body {
   height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #0b3954; /* Replace with your desired background color */
-}
-
-.text-left {
-  text-align: left;
+  background-color: #0b3954;
 }
 
 #root,
@@ -41,19 +39,6 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 @keyframes logo-spin {
