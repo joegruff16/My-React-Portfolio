@@ -3,8 +3,8 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import { Outlet } from "react-router-dom";
+
 // Imports for styling
-import Container from "react-bootstrap/Container";
 
 import "../src/assets/style.css";
 
