@@ -100,11 +100,22 @@ const Portfolio = () => (
       </Col>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle" />
+          <Card.Img variant="top" className="payRollXCard" />
           <Card.Body>
             <Card.Title>Payroll-x APP</Card.Title>
-            <Button variant="secondary">Repo</Button>
-            <Button variant="secondary">Live site</Button>
+            <Button
+              variant="secondary"
+              href="https://github.com/joegruff16/payroll-x-app"
+              target="_blank"
+            >
+              Repo
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://joegruff16.github.io/payroll-x-app/"
+            >
+              Live site
+            </Button>
           </Card.Body>
         </Card>
       </Col>
