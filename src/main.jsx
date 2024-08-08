@@ -10,7 +10,7 @@ import "../src/assets/style.css";
 import Landing from "./pages/Landing";
 import Aboutme from "./pages/AboutmePage";
 import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
+import Portfolio from "./pages/PortfolioPage";
 import Resume from "./pages/Resume";
 
 const router = createBrowserRouter([

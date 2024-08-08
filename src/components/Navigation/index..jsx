@@ -1,9 +1,7 @@
 // A single Navigation component within the header that will use Link components from react-router-dom to conditionally render the different sections of your portfolio
 
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Nav, Navbar, Container } from "react-bootstrap/";
 import { Link } from "react-router-dom";
 // Import bootstrap and style sheet to apply styles
 import "bootstrap/dist/css/bootstrap.min.css";

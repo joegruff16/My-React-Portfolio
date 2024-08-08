@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="fluid">
       <Header />
-      {/* <Navigation /> */}
       <Outlet />
       <Footer />
     </div>
