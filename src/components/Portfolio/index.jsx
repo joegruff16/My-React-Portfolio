@@ -54,11 +54,23 @@ const Portfolio = () => (
       </Col>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle" />
+          <Card.Img variant="top" className="tutorHubCard" />
           <Card.Body>
             <Card.Title>tutorHub</Card.Title>
-            <Button variant="secondary">Repo</Button>
-            <Button variant="secondary">Live site</Button>
+            <Button
+              variant="secondary"
+              href="https://github.com/joegruff16/tutorHub"
+              target="_blank"
+            >
+              Repo
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://tutorhub-spk8.onrender.com/"
+              target="_blank"
+            >
+              Live site
+            </Button>
           </Card.Body>
         </Card>
       </Col>
@@ -66,11 +78,23 @@ const Portfolio = () => (
     <Row>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle" />
+          <Card.Img variant="top" className="noteCraftCard" />
           <Card.Body>
             <Card.Title>noteCraft</Card.Title>
-            <Button variant="secondary">Repo</Button>
-            <Button variant="secondary">Live site</Button>
+            <Button
+              variant="secondary"
+              href="https://github.com/joegruff16/noteCraft"
+              target="_blank"
+            >
+              Repo
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://notecraft-app.onrender.com/"
+              target="_blank"
+            >
+              Live site
+            </Button>
           </Card.Body>
         </Card>
       </Col>
