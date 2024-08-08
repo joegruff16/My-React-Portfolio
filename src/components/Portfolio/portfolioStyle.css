@@ -8,3 +8,8 @@
 .cardStyle {
   border: 4px solid #b80300 !important;
 }
+
+.containerPadding {
+  padding-left: 6rem !important;
+  margin-top: 2rem;
+}

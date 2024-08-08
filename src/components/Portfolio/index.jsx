@@ -6,7 +6,7 @@ import "../Portfolio/portfolioStyle.css";
 // Add all of your projects into the component to pass into the page
 
 const Portfolio = () => (
-  <Container>
+  <Container className="containerPadding">
     <Row>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
