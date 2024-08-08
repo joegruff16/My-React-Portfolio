@@ -10,29 +10,53 @@ const Portfolio = () => (
     <Row>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle customImageClass" />
+          <Card.Img variant="top" className="journeyCard" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Button variant="secondary">Repo</Button>
-            <Button variant="secondary">Live site</Button>
+            <Card.Title>Journey's End</Card.Title>
+            <Button
+              variant="secondary"
+              href="https://github.com/joegruff16/Journeys-End"
+              target="_blank"
+            >
+              Repo
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://joegruff16.github.io/Journeys-End/"
+              target="_blank"
+            >
+              Live site
+            </Button>
           </Card.Body>
         </Card>
       </Col>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle customImageClass" />
+          <Card.Img variant="top" className="weatherForecastCard" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Button variant="secondary">Repo</Button>
-            <Button variant="secondary">Live site</Button>
+            <Card.Title>your-weather-forecast</Card.Title>
+            <Button
+              variant="secondary"
+              href="https://github.com/joegruff16/your-weather-forecast"
+              target="_blank"
+            >
+              Repo
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://joegruff16.github.io/your-weather-forecast/"
+              target="_blank"
+            >
+              Live site
+            </Button>
           </Card.Body>
         </Card>
       </Col>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle customImageClass" />
+          <Card.Img variant="top" className="imgStyle" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>tutorHub</Card.Title>
             <Button variant="secondary">Repo</Button>
             <Button variant="secondary">Live site</Button>
           </Card.Body>
@@ -42,9 +66,19 @@ const Portfolio = () => (
     <Row>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle customImageClass" />
+          <Card.Img variant="top" className="imgStyle" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>noteCraft</Card.Title>
+            <Button variant="secondary">Repo</Button>
+            <Button variant="secondary">Live site</Button>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col md={4}>
+        <Card className="cardStyle" style={{ width: "18rem" }}>
+          <Card.Img variant="top" className="imgStyle" />
+          <Card.Body>
+            <Card.Title>Payroll-x APP</Card.Title>
             <Button variant="secondary">Repo</Button>
             <Button variant="secondary">Live site</Button>
           </Card.Body>
@@ -54,17 +88,7 @@ const Portfolio = () => (
         <Card className="cardStyle" style={{ width: "18rem" }}>
           <Card.Img variant="top" className="imgStyle customImageClass" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Button variant="secondary">Repo</Button>
-            <Button variant="secondary">Live site</Button>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col md={4}>
-        <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle customImageClass" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>React-Portfolio-TailwindCSS</Card.Title>
             <Button variant="secondary">Repo</Button>
             <Button variant="secondary">Live site</Button>
           </Card.Body>
