@@ -5,8 +5,8 @@ import { Nav, Navbar, Container } from "react-bootstrap/";
 import { Link } from "react-router-dom";
 // Import bootstrap and style sheet to apply styles
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../assets/style.css";
-
+import "../../assets/style.css";
+// Use navbar toggle and collapse to make it
 function Navigation() {
   return (
     <Navbar bg="Nav" data-bs-theme="light">
