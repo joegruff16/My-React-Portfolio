@@ -11,7 +11,7 @@ import Landing from "./pages/Landing";
 import Aboutme from "./pages/AboutmePage";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/PortfolioPage";
-import Resume from "./pages/Resume";
+import Resume from "./pages/ResumePage";
 
 const router = createBrowserRouter([
   {
