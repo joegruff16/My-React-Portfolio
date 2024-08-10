@@ -18,14 +18,14 @@ Nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #0b3954; /* Ensure the background color is white */
+  background-color: #153243; /* Ensure the background color is white */
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #0b3954;
+  background-color: #153243;
 }
 
 #root,
@@ -35,8 +35,8 @@ body {
 #root {
   font-family: "Kanit", sans-serif;
   max-width: 1280px;
-  background-color: #0b3954;
-  color: #f8f8fb;
+  background-color: #153243;
+  color: #f4f4fa;
 
   margin: 0 auto;
   padding: 2rem;
