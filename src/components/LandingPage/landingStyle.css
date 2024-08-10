@@ -1,9 +1,24 @@
 .landingImg {
   background-image: url(../../assets/images/joe.png);
   background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.developerImg {
+  background-image: url(../../assets/images/developer.png);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+}
+.floridaImg {
+  background-image: url(../../assets/images/florida.png);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
 }
 .intro {
   padding-top: 2rem;
