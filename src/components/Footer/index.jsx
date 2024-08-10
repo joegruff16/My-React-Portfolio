@@ -1,52 +1,69 @@
 import React from "react";
 // import react icons for social media portion of footer
-// import { FiGithub, FiLinkedin, FiSubstack } from "react-icons/fi";
-
-const footerLinks = [{}];
-function Footer() {
-  return (
-    <div className="text-center">
-      <p className="text-sm">
-        &copy; {new Date().getFullYear()} Joseph Ruff. All rights reserved.
-      </p>
-    </div>
-  );
-}
+import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { Container, Row, Col, ListGroup } from "react-bootstrap/";
 
 // Example Footer
-// import {
-//   FiGithub,
-//   FiLinkedin,
-//
-// } from "react-icons/fi";
 
-// const socialLinks = [
-//   {
-//     id: 1,
-//     icon: <FiGlobe />,
-//     url: "https://www.stoman.me/",
-//   },
-//   {
-//     id: 2,
-//     icon: <FiGithub />,
-//     url: "https://github.com/",
-//   },
-//   {
-//     id: 3,
-//     icon: <FiTwitter />,
-//     url: "https://twitter.com/",
-//   },
-//   {
-//     id: 4,
-//     icon: <FiLinkedin />,
-//     url: "https://www.linkedin.com/in/",
-//   },
-//   {
-//     id: 5,
-//     icon: <FiYoutube />,
-//     url: "https://www.youtube.com/c/",
-//   },
-// ];
+const socialLinks = [
+  {
+    id: 1,
+    icon: <FiGithub />,
+    url: "https://github.com/",
+  },
+
+  {
+    id: 2,
+    icon: <FiLinkedin />,
+    url: "https://www.linkedin.com/in/",
+  },
+  // {
+  //   id: 3,
+  //   icon: <FiSubstack />,
+  //   url: "https://www.youtube.com/c/",
+  // },
+];
+
+function Footer() {
+  return (
+    <Container className="mt-5 pt-5 border-top">
+      <Row className="justify-content-center text-center mb-5">
+        <Col>
+          <p className="h3 mb-4">Follow me</p>
+          <ListGroup horizontal className="justify-content-center">
+            {socialLinks.map((link) => (
+              <ListGroup.Item
+                key={link.id}
+                className="border-0 bg-transparent p-0"
+              >
+                <a
+                  href={link.url}
+                  target="__blank"
+                  className="text-secondary hover-text-primary"
+                  style={{
+                    textDecoration: "none",
+                    padding: "10px",
+                    borderRadius: "8px",
+                    backgroundColor: "#f8f9fa",
+                    boxShadow: "0 1px 3px rgba(0, 0, 0, 0.1)",
+                    transition: "background-color 0.3s ease",
+                  }}
+                >
+                  <i className={`h4 ${link.icon}`}></i>
+                </a>
+              </ListGroup.Item>
+            ))}
+          </ListGroup>
+        </Col>
+      </Row>
+    </Container>
+    // <div className="text-center">
+    //   <p className="text-sm">
+    //     &copy; {new Date().getFullYear()} Joseph Ruff. All rights reserved.
+    //   </p>
+    // </div>
+  );
+}
 
 // const Footer = () => {
 //   return (
