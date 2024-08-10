@@ -1,31 +1,42 @@
+/* Images within intro paragraph */
 .landingImg {
   background-image: url(../../assets/images/joe.png);
-  background-size: cover;
-  width: 55px;
-  height: 55px;
   border-radius: 50%;
-  display: inline-block;
-}
-.developerImg {
-  background-image: url(../../assets/images/developer.png);
-  background-size: cover;
-  width: 55px;
-  height: 55px;
-  display: inline-block;
 }
 .floridaImg {
   background-image: url(../../assets/images/florida.png);
+}
+.developerImg {
+  background-image: url(../../assets/images/developer.png);
+}
+/* Styles for images */
+.developerImg,
+.floridaImg,
+.landingImg {
   background-size: cover;
   width: 55px;
   height: 55px;
   display: inline-block;
+  margin: 0 10px; /*  */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow  */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
 }
+
 .intro {
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 4rem;
   font-weight: 600;
 }
-/* .container {
-  padding-left: 6rem;
-} */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+}
+.landingImg:hover,
+.developerImg:hover,
+.floridaImg:hover {
+  transform: scale(1.1);
+}
