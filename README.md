@@ -13,3 +13,5 @@ Currently, two official plugins are available:
   - <https://www.flaticon.com/free-icon/social-media_6029591?related_id=6029550&origin=search>
 - Used for my Florida image
   - <https://www.flaticon.com/free-icon/island_4617270?term=palm+trees&related_id=4617270>
+- Used this for my Resume
+  - <https://simplepdf.eu/>

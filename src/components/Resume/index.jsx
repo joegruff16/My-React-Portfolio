@@ -10,7 +10,7 @@ function Resume() {
       <EmbedPDF
         mode="inline"
         style={{ width: 900, height: 800 }}
-        documentURL="https://h1nqc3w0.simplepdf.eu/form/8c611335ab46dac9d2d2a1dc884d288e000e8c9564e28e7eec81f6b6b35eb7c8"
+        documentURL="https://h1nqc3w0.simplepdf.eu/form/3f21783097fe71a1b7b336625ee9990811bf799c369f2041ded51a009ca71586"
       />
     </>
   );
