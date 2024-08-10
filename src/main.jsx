@@ -3,6 +3,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 // Import Bootstrap and styles
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/assets/style.css";
@@ -12,7 +13,22 @@ import Aboutme from "./pages/AboutmePage";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/PortfolioPage";
 import Resume from "./pages/ResumePage";
+import Footer from "./components/Footer";
 
+// Social links are defined below
+const socialLinks = [
+  {
+    id: 1,
+    icon: <FiGithub />,
+    url: "https://github.com/",
+  },
+
+  {
+    id: 2,
+    icon: <FiLinkedin />,
+    url: "https://www.linkedin.com/in/",
+  },
+];
 const router = createBrowserRouter([
   {
     path: "/",
@@ -45,5 +61,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Footer socialLinks={socialLinks} />
   </React.StrictMode>
 );
