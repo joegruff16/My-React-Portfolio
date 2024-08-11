@@ -15,3 +15,5 @@ Currently, two official plugins are available:
   - <https://www.flaticon.com/free-icon/island_4617270?term=palm+trees&related_id=4617270>
 - Used this for my Resume
   - <https://simplepdf.eu/>
+- Used this to develop my footer component
+  - <https://medium.com/@ryaddev/social-media-footer-component-for-your-react-application-using-tailwindcss-97af8680a1bd>
