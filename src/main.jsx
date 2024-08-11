@@ -20,13 +20,13 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiGithub />,
-    url: "https://github.com/",
+    url: "https://github.com/joegruff16",
   },
 
   {
     id: 2,
     icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/",
+    url: "https://www.linkedin.com/in/joseph-ruff-gary0316/",
   },
 ];
 const router = createBrowserRouter([
