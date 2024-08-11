@@ -113,6 +113,7 @@ const Portfolio = () => (
             <Button
               variant="secondary"
               href="https://joegruff16.github.io/payroll-x-app/"
+              target="_blank"
             >
               Live site
             </Button>
@@ -121,11 +122,23 @@ const Portfolio = () => (
       </Col>
       <Col md={4}>
         <Card className="cardStyle" style={{ width: "18rem" }}>
-          <Card.Img variant="top" className="imgStyle customImageClass" />
+          <Card.Img variant="top" className="peerPathCard customImageClass" />
           <Card.Body>
-            <Card.Title>React-Portfolio-TailwindCSS</Card.Title>
-            <Button variant="secondary">Repo</Button>
-            <Button variant="secondary">Live site</Button>
+            <Card.Title>PeerPath-API</Card.Title>
+            <Button
+              variant="secondary"
+              href="https://github.com/joegruff16/PeerPath-API"
+              target="_blank"
+            >
+              Repo
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://drive.google.com/file/d/1-PBfNzfuoMLNWl25tV_g83dpI89iBmzp/view?usp=sharing"
+              target="_blank"
+            >
+              Live site
+            </Button>
           </Card.Body>
         </Card>
       </Col>
