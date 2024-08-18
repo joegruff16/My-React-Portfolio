@@ -1,5 +1,5 @@
+// To do: Update hover elements on navigation either using style sheet or react-bootstrap
 // A single Navigation component within the header that will use Link components from react-router-dom to conditionally render the different sections of your portfolio
-
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap/";
 import { Link } from "react-router-dom";

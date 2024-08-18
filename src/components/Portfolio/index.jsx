@@ -1,3 +1,5 @@
+// To do: Add media query to cards that will break properly making the cards more responsive no matter how big or small the screen is
+
 import React from "react";
 import { Card, Button, Container, Row, Col } from "react-bootstrap/";
 
@@ -8,8 +10,8 @@ import "../Portfolio/portfolioStyle.css";
 const Portfolio = () => (
   <Container className="containerPadding">
     <Row>
-      <Col md={4}>
-        <Card className="cardStyle" style={{ width: "18rem" }}>
+      <Col xs={12} sm={6} md={4} lg={3}>
+        <Card className="cardStyle" style={{ width: "100%" }}>
           <Card.Img variant="top" className="journeyCard" />
           <Card.Body>
             <Card.Title>Journey's End</Card.Title>
@@ -30,8 +32,8 @@ const Portfolio = () => (
           </Card.Body>
         </Card>
       </Col>
-      <Col md={4}>
-        <Card className="cardStyle" style={{ width: "18rem" }}>
+      <Col xs={12} sm={6} md={4} lg={3}>
+        <Card className="cardStyle" style={{ width: "100%" }}>
           <Card.Img variant="top" className="weatherForecastCard" />
           <Card.Body>
             <Card.Title>your-weather-forecast</Card.Title>
@@ -52,8 +54,8 @@ const Portfolio = () => (
           </Card.Body>
         </Card>
       </Col>
-      <Col md={4}>
-        <Card className="cardStyle" style={{ width: "18rem" }}>
+      <Col xs={12} sm={6} md={4} lg={3}>
+        <Card className="cardStyle" style={{ width: "100%" }}>
           <Card.Img variant="top" className="tutorHubCard" />
           <Card.Body>
             <Card.Title>tutorHub</Card.Title>
@@ -76,8 +78,8 @@ const Portfolio = () => (
       </Col>
     </Row>
     <Row>
-      <Col md={4}>
-        <Card className="cardStyle" style={{ width: "18rem" }}>
+      <Col xs={12} sm={6} md={4} lg={3}>
+        <Card className="cardStyle" style={{ width: "100%" }}>
           <Card.Img variant="top" className="noteCraftCard" />
           <Card.Body>
             <Card.Title>noteCraft</Card.Title>
@@ -98,8 +100,8 @@ const Portfolio = () => (
           </Card.Body>
         </Card>
       </Col>
-      <Col md={4}>
-        <Card className="cardStyle" style={{ width: "18rem" }}>
+      <Col xs={12} sm={6} md={4} lg={3}>
+        <Card className="cardStyle" style={{ width: "100%" }}>
           <Card.Img variant="top" className="payRollXCard" />
           <Card.Body>
             <Card.Title>Payroll-x APP</Card.Title>
@@ -120,8 +122,8 @@ const Portfolio = () => (
           </Card.Body>
         </Card>
       </Col>
-      <Col md={4}>
-        <Card className="cardStyle" style={{ width: "18rem" }}>
+      <Col xs={12} sm={6} md={4} lg={3}>
+        <Card className="cardStyle" style={{ width: "100%" }}>
           <Card.Img variant="top" className="peerPathCard customImageClass" />
           <Card.Body>
             <Card.Title>PeerPath-API</Card.Title>
