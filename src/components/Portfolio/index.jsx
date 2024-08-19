@@ -12,7 +12,10 @@ const Portfolio = () => (
     {/* Added this bootstrap class to each row to center the cards */}
     <Row className="justify-content-center">
       <Col xs={12} sm={6} md={4} lg={3}>
-        <Card className="cardStyle" style={{ width: "100%", height: "100%" }}>
+        <Card
+          className="cardStyle cardAnimation"
+          style={{ width: "100%", height: "100%" }}
+        >
           <Card.Img variant="top" className="journeyCard" />
           <Card.Body>
             <Card.Title>Journey's End</Card.Title>
@@ -34,7 +37,10 @@ const Portfolio = () => (
         </Card>
       </Col>
       <Col xs={12} sm={6} md={4} lg={3}>
-        <Card className="cardStyle" style={{ width: "100%", height: "100%" }}>
+        <Card
+          className="cardStyle cardAnimation"
+          style={{ width: "100%", height: "100%" }}
+        >
           <Card.Img variant="top" className="weatherForecastCard" />
           <Card.Body>
             <Card.Title>your-weather-forecast</Card.Title>
@@ -56,7 +62,10 @@ const Portfolio = () => (
         </Card>
       </Col>
       <Col xs={12} sm={6} md={4} lg={3}>
-        <Card className="cardStyle" style={{ width: "100%", height: "100%" }}>
+        <Card
+          className="cardStyle cardAnimation"
+          style={{ width: "100%", height: "100%" }}
+        >
           <Card.Img variant="top" className="tutorHubCard" />
           <Card.Body>
             <Card.Title>tutorHub</Card.Title>
@@ -81,7 +90,10 @@ const Portfolio = () => (
     {/* Added this bootstrap class to each row to center the cards */}
     <Row className="justify-content-center mt-4">
       <Col xs={12} sm={6} md={4} lg={3}>
-        <Card className="cardStyle" style={{ width: "100%", height: "100%" }}>
+        <Card
+          className="cardStyle cardAnimation"
+          style={{ width: "100%", height: "100%" }}
+        >
           <Card.Img variant="top" className="noteCraftCard" />
           <Card.Body>
             <Card.Title>noteCraft</Card.Title>
@@ -103,7 +115,10 @@ const Portfolio = () => (
         </Card>
       </Col>
       <Col xs={12} sm={6} md={4} lg={3}>
-        <Card className="cardStyle" style={{ width: "100%", height: "100%" }}>
+        <Card
+          className="cardStyle cardAnimation"
+          style={{ width: "100%", height: "100%" }}
+        >
           <Card.Img variant="top" className="payRollXCard" />
           <Card.Body>
             <Card.Title>Payroll-x APP</Card.Title>
@@ -125,7 +140,10 @@ const Portfolio = () => (
         </Card>
       </Col>
       <Col xs={12} sm={6} md={4} lg={3}>
-        <Card className="cardStyle" style={{ width: "100%", height: "100%" }}>
+        <Card
+          className="cardStyle cardAnimation"
+          style={{ width: "100%", height: "100%" }}
+        >
           <Card.Img variant="top" className="peerPathCard customImageClass" />
           <Card.Body>
             <Card.Title>PeerPath-API</Card.Title>

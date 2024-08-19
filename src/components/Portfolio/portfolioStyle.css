@@ -1,52 +1,51 @@
-.peerPathCard {
-  background-image: url(../../assets/images/peer-path-api.png);
+.peerPathCard,
+.journeyCard,
+.weatherForecastCard,
+.tutorHubCard,
+.noteCraftCard,
+.payRollXCard {
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 200px;
+}
+
+.peerPathCard {
+  background-image: url(../../assets/images/peer-path-api.png);
 }
 
 .journeyCard {
   background-image: url(../../assets/images/journeys_end.gif);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px;
 }
 
 .weatherForecastCard {
   background-image: url(../../assets/images/your-weather-forecast.png);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px;
 }
 
 .tutorHubCard {
   background-image: url(../../assets/images/tutor_hub.gif);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px;
 }
 
 .noteCraftCard {
   background-image: url(../../assets/images/note_craft.png);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px;
 }
 
 .payRollXCard {
   background-image: url(../../assets/images/payroll-x.png);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px;
 }
+
 .cardStyle {
   border: 4px solid #b4b8ab !important;
+}
+
+.cardAnimation {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardAnimation:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .containerPadding {
