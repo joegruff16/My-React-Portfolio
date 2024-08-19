@@ -79,7 +79,7 @@ const Portfolio = () => (
       </Col>
     </Row>
     {/* Added this bootstrap class to each row to center the cards */}
-    <Row className="justify-content-center">
+    <Row className="justify-content-center mt-4">
       <Col xs={12} sm={6} md={4} lg={3}>
         <Card className="cardStyle" style={{ width: "100%", height: "100%" }}>
           <Card.Img variant="top" className="noteCraftCard" />
