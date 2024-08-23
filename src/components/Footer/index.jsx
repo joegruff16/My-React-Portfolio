@@ -1,11 +1,9 @@
 import React from "react";
 // import react icons for social media portion of footer
-
+import { socialLinks } from "../../main";
 import { Container, Row, Col, ListGroup } from "react-bootstrap/";
 
-// Example Footer
-
-function Footer({ socialLinks = [] }) {
+function Footer() {
   return (
     <Container className="mt-5 pt-5 border-top">
       <Row className="justify-content-center text-center mb-5">
@@ -15,22 +13,24 @@ function Footer({ socialLinks = [] }) {
             {socialLinks.map((link) => (
               <ListGroup.Item
                 key={link.id}
-                className="border-0 bg-transparent p-0"
+                className="border-0 bg-transparent p-1"
               >
                 <a
                   href={link.url}
                   target="__blank"
-                  className="text-secondary hover-text-primary"
+                  className="text-secondary hover-text-secondary"
                   style={{
                     textDecoration: "none",
-                    padding: "10px",
-                    borderRadius: "8px",
-                    backgroundColor: "#f8f9fa",
+                    padding: "12px",
+                    borderRadius: "10px",
+                    // backgroundColor: "transparent",
+                    transform: "scale(1.05)",
                     boxShadow: "0 1px 3px rgba(0, 0, 0, 0.1)",
                     transition: "background-color 0.3s ease",
+                    color: "white",
                   }}
                 >
-                  <i className={`h4 ${link.icon}`}></i>
+                  {link.icon}
                 </a>
               </ListGroup.Item>
             ))}

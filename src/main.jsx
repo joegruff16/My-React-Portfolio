@@ -3,7 +3,9 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+// Import React icons for footer
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
+import { BsSubstack } from "react-icons/bs";
 // Import Bootstrap and styles
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/assets/style.css";
@@ -16,17 +18,22 @@ import Resume from "./pages/ResumePage";
 import Footer from "./components/Footer";
 
 // Social links are defined below
-const socialLinks = [
+export const socialLinks = [
   {
     id: 1,
-    icon: <FiGithub />,
+    icon: <FaGithub />,
     url: "https://github.com/joegruff16",
   },
 
   {
     id: 2,
-    icon: <FiLinkedin />,
+    icon: <FaLinkedin />,
     url: "https://www.linkedin.com/in/joseph-ruff-gary0316/",
+  },
+  {
+    id: 3,
+    icon: <BsSubstack />,
+    url: "https://substack.com/@josephjoeruff",
   },
 ];
 const router = createBrowserRouter([
